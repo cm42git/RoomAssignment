@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings version="2">
+  <category name="cp">
+    <setting name="dynamicprobing" value="On"/>
+    <setting name="logverbosity" value="Terse"/>
+    <setting name="defaultinferencelevel" value="Extended"/>
+    <setting name="dynamicprobingstrength" value="0.8"/>
+  </category>
+</settings>

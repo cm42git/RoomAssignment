@@ -1,0 +1,10 @@
+/*********************************************
+ * OPL 22.1.0.0 Data
+ * Author: chris
+ * Creation Date: May 13, 2022 at 9:58:18 PM
+ *********************************************/
+CSVConnection room_con("rooms.csv?firstIsHeader=true", "");
+CSVConnection people_con("people.csv?firstIsHeader=true", "");
+
+roomsIn from CSVRead(room_con,"");
+peopleIn from CSVRead(people_con,"");
